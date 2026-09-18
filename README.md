@@ -61,152 +61,168 @@ src/
 │
 ├── App.tsx
 └── main.tsx
+```
 
-Component Structure
-Header
+## Component Structure
+
+### Header
 
 The Header component contains the application title and navigation links.
 
-Footer
+### Footer
 
 The Footer component is shared across the application and displays the footer content.
 
-Button
+### Button
 
 The Button is a reusable TypeScript component.
 
 It accepts typed props such as:
 
-text
-onClick
-type
-Card
+- `text`
+- `onClick`
+- `type`
+
+### Card
 
 The Card component displays:
 
-Title
-Description
-Button
+- Title
+- Description
+- Button
 
 The component uses TypeScript interfaces to ensure that the required props are provided correctly.
 
-Pages
-Home Page
+## Pages
+
+### Home Page
 
 The Home page demonstrates the reusable Card and Button components.
 
-URL:
+**URL:**
 
+```text
 /
-About Page
+```
+
+### About Page
 
 The About page provides information about the project.
 
-URL:
+**URL:**
 
+```text
 /about
-Routing
+```
+
+## Routing
 
 React Router is used to navigate between the Home and About pages without manually handling browser URLs.
 
-Styling
+## Styling
 
 Basic CSS styling is implemented using a global stylesheet:
 
+```text
 src/styles/global.css
-Installation
+```
+
+## Installation
 
 Clone the repository:
 
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
 Navigate into the project:
 
+```bash
 cd react-typescript-task
+```
 
 Install the project dependencies:
 
+```bash
 npm install
-Run the Project
+```
+
+## Run the Project
 
 Start the development server:
 
+```bash
 npm run dev
+```
 
 The terminal will display a local URL, usually:
 
+```text
 http://localhost:5173/
+```
 
 Open that URL in your browser.
 
-Type Checking
+## Type Checking
 
 To check the project for TypeScript errors:
 
+```bash
 npx tsc --noEmit
+```
 
 The project should complete the check without TypeScript errors.
 
-Production Build
+## Production Build
 
 To create a production build:
 
+```bash
 npm run build
-Git Commands Used
+```
+
+## Git Commands Used
 
 Initialize Git:
 
+```bash
 git init -b main
+```
 
 Add files:
 
+```bash
 git add .
+```
 
 Create a commit:
 
+```bash
 git commit -m "Initial React TypeScript project"
+```
 
 Connect the local project to GitHub:
 
+```bash
 git remote add origin YOUR_GITHUB_REPOSITORY_URL
+```
 
 Push the project:
 
+```bash
 git push -u origin main
-Learning Objectives
+```
+
+## Learning Objectives
 
 This project was created to understand:
 
-React project setup using Vite
-TypeScript in React
-Component-based architecture
-Component props and interfaces
-Reusable components
-React Router
-Basic CSS styling
-Folder organization
-Git and GitHub workflow
-
----
-
-# PART Q — Replace the GitHub URL
-
-In the README you'll see:
-
-```text
-YOUR_GITHUB_REPOSITORY_URL
-
-Replace it with your actual repository URL.
-
-For example:
-
-https://github.com/yourusername/react-typescript-task.git
-
-Use your actual GitHub username.
-
-You'll need to replace it in both places:
-
-First:
-git clone YOUR_GITHUB_REPOSITORY_URL
-Second:
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
+- React project setup using Vite
+- TypeScript in React
+- Component-based architecture
+- Component props and interfaces
+- Reusable components
+- React Router
+- Basic CSS styling
+- Folder organization
+- Git and GitHub workflow
