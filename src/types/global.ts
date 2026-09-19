@@ -1,8 +1,19 @@
+// Type used by navigation components.
+export interface NavItemData {
+  label: string;
+  href: string;
+}
+
+// Type used by the reusable Card component.
 export interface CardData {
   title: string;
   description: string;
   buttonText: string;
 }
-//Create a global types file inside the types folder
-//It creates a template for card data so
-//  TypeScript knows what information a card should contain.
+
+// Type used by the Hero statistics section.
+export interface HeroStat {
+  label: string;
+  value: string;
+  description: string;
+}
